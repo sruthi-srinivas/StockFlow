@@ -1,0 +1,28 @@
+# Environment files
+.env
+*.env
+.env.*
+!.env.example
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# SQLite databases
+*.db
+*.sqlite3
+*.sqlite
+stockflow.db
+test_stockflow.db
+security_test_stockflow.db
